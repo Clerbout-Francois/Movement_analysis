@@ -21,6 +21,7 @@ You need to download the "seq1" directory from this repository and to put it in 
 
 _Figure 1: Photograph to indicate the placement of the resultats and the seq1 directories._
 
+You also need to download all the .m files !! :smile:
 
 [Table of Contents](#table_of_contents)
 <a name="introduction_"/>
@@ -120,7 +121,7 @@ Furthermore, we are aware that we could continue to develop this program in orde
 <a name="license_"/>
 
 ## License
-Project carried out with Maël Lemaire. You can see his GitHub [here](https://github.com/lemaireMael).
+Project carried out with Maël Lemaire. You can see his GitHub [here](https://github.com/lemaireMael). :hugs:
 
 Please do not forget that this project is under [MIT license](https://choosealicense.com/licenses/mit/).
 
