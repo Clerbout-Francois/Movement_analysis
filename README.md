@@ -19,7 +19,7 @@ You need to download the "seq1" directory from this repository and to put it in 
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/Image1.png?raw=true)
 
-_Figure 1: Photograph to indicate the placement of the resultats and the seq1 directories._
+_Figure 1 : Photograph to indicate the placement of the resultats and the seq1 directories._
 
 You also need to download all the .m files !! :smile:
 
@@ -46,65 +46,65 @@ To have an idea of the pictures we have to analyze, here are some of them (01, 1
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/seq1/seq1_40.jpg?raw=true)
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/seq1/seq1_50.jpg?raw=true)
 
-_Figure 2: Photographs extracted from the sequence of pictures we had._
+_Figure 2 : Photographs extracted from the sequence of pictures we had._
 
 Here is our image of interest (the picture number 13) on which the analysis will be based : 
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/11_image_num_13.jpg?raw=true)
 
-_Figure 3: Photograph of interest._
+_Figure 3 : Photograph of interest._
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/12_image_num_13-5.jpg?raw=true)
 
-_Figure 4: Photograph of the image number 8._
+_Figure 4 : Photograph of the image number 8._
 
 Then we have made the difference between the image number 13 and the image number 8 in order to see the vehicles which have moved between the two.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/13_diff_image___delta_i_5.jpg?raw=true)
 
-_Figure 5: Photograph of the image difference (image 13 - image 8)._
+_Figure 5 : Photograph of the image difference (image 13 - image 8)._
 
 By thresholded the image difference, we want to highlight the objects in movement between the 2 images.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/14_th_diff_image___delta_i_5___k_th_4.0.jpg?raw=true)
 
-_Figure 6: Photograph of the image difference (image 13 - image 8) thresholded._
+_Figure 6 : Photograph of the image difference (image 13 - image 8) thresholded._
 
 Then, we do the average of all the images of the sequence.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/101_Image_of_averages.jpg?raw=true)
 
-_Figure 7: Photograph of the image average._
+_Figure 7 : Photograph of the image average._
 
 Then, we save the image of standard deviations.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/102_Image_of_standard_deviations.jpg?raw=true)
 
-_Figure 8: Photograph of the image of the standard deviations._
+_Figure 8 : Photograph of the image of the standard deviations._
 
 On the two past photographs, we can observe all the trajectories.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/113_abs_diff_image___delta_i_5.jpg?raw=true)
 
-_Figure 9: Photograph of the image (in absolute value)._
+_Figure 9 : Photograph of the image (in absolute value)._
 
 From figure 9, we are able to obtain the three next figures :
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/122_th_diff_image_minus_median___k_th_4.0.jpg?raw=true)
 
-_Figure 10: Photograph of the image minus median (thresholded)._
+_Figure 10 : Photograph of the image minus median (thresholded)._
 
 We only obtain the pixels where there is movement. We use the median image because it allows us to have less noise.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/212_Ferm_Ouv_th_diff_image_minus_median___k_th_4.0.jpg?raw=true)
 
-_Figure 11: Photograph of the image minus median (thresholded) with Closing and then Opening._
+_Figure 11 : Photograph of the image minus median (thresholded) with Closing and then Opening._
 
 By doing a Closing then Opening we are able to dilate white elements on a picture.
 
 ![alt text](https://github.com/Clerbout-Francois/Movement_analysis/blob/main/resultats/214_RCC8_Ferm_Ouv_th_diff_image_minus_median___k_th_4.0.jpg?raw=true)
 
-_Figure 12: Photograph of the image minus median (thresholded) with Closing and then Opening and a 4-connexity._
+_Figure 12 : Photograph of the image minus median (thresholded) with Closing and then Opening and a 4-connexity._
 
 [Table of Contents](#table_of_contents)
 <a name="conclusion_"/>
